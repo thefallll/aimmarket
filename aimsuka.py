@@ -2,12 +2,14 @@ import re
 import json
 import os
 import logging
+import time
 
 from async_tls_client import AsyncSession
 
 import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
+from aiogram import types
 
 from dotenv import load_dotenv
 
@@ -27,9 +29,11 @@ dp = Dispatcher()
 PROXY_FILE = 'list_resident_proxyseller (4).txt'
 LOG_FILE = "aimmarket.log"
 
+logging.Formatter.converter = time.gmtime
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
+    format="%(asctime)s UTC [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
         logging.FileHandler(LOG_FILE, mode="w", encoding="utf-8"),
         logging.StreamHandler()
@@ -392,6 +396,21 @@ async def periodic_items_update():
             logging.error(f"Ошибка при обновлении items.json: {e}")
         await asyncio.sleep(3 * 60 * 60)
 
+@dp.message()
+async def status_handler(message: types.Message):
+    if message.chat.type != "private":
+        return
+    try:
+        if os.path.exists(LOG_FILE):
+            with open(LOG_FILE, "r", encoding="utf-8") as f:
+                lines = f.readlines()[-10:]
+            logs = "".join(lines)
+        else:
+            logs = "Лог-файл не найден."
+        await message.answer(f"✅ Чекай!\n\nПоследние 10 логов:\n\n<pre>{logs}</pre>", parse_mode="HTML")
+    except Exception as e:
+        await message.answer(f"❌ Ошибка: {e}")
+
 if __name__ == "__main__":
     aimmarket_app = Aimmarket()
     async def runner():
@@ -405,6 +424,9 @@ if __name__ == "__main__":
         logging.info("Первичная загрузка items.json завершена!")
         asyncio.create_task(periodic_items_update())
 
-        await aimmarket_app.main()
+        # Запускаем aiogram polling параллельно с парсером
+        parser_task = asyncio.create_task(aimmarket_app.main())
+        polling_task = asyncio.create_task(dp.start_polling(bot))
+        await asyncio.gather(parser_task, polling_task)
 
     asyncio.run(runner())
