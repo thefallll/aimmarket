@@ -1,233 +1,238 @@
-2025-06-12 17:16:12 UTC [INFO] Первичная загрузка items.json ...
-2025-06-12 17:16:16 UTC [INFO] Первичная загрузка items.json завершена!
-2025-06-12 17:16:16 UTC [INFO] Обновляю items.json ...
-2025-06-12 17:16:16 UTC [INFO] Start polling
-2025-06-12 17:16:17 UTC [INFO] Run polling for bot @AIMMARKET000Bot id=7864270408 - 'AIMMARKET'
-2025-06-12 17:16:18 UTC [INFO] [Worker 1] Прокси готов: a979209633208c32:RNW78Fm5@res.proxy-seller.io:10006
-2025-06-12 17:16:18 UTC [INFO] [Worker 1] Готов (1/1)
-2025-06-12 17:16:18 UTC [INFO] Все воркеры готовы! Начинаем парсинг!
-2025-06-12 17:16:21 UTC [INFO] items.json обновлён и перечитан в память!
+2025-06-12 23:19:07 UTC [INFO] Первичная загрузка items.json ...
+2025-06-12 23:19:11 UTC [INFO] Первичная загрузка items.json завершена!
+2025-06-12 23:19:11 UTC [INFO] Обновляю items.json ...
+2025-06-12 23:19:11 UTC [INFO] Start polling
+2025-06-12 23:19:11 UTC [INFO] Run polling for bot @AIMMARKET000Bot id=7864270408 - 'AIMMARKET'
+2025-06-12 23:19:12 UTC [INFO] [Worker 1] Прокси готов: 8PGDYX:HW28zA@45.94.231.129:8000
+2025-06-12 23:19:12 UTC [INFO] [Worker 1] Готов (1/1)
+2025-06-12 23:19:12 UTC [INFO] Все воркеры готовы! Начинаем парсинг!
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] [8PGDYX:HW28zA@45.94.231.129:8000] Получен ответ: 200, длина: 412103
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Five-SeveN | Violent Daimyo (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.273
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/6460c9ac-8815-4a91-8f1c-d7266810985f
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Olive Polycam (Factory New)
+🎯 Float: 0.05608636140823364
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.4305
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/d776f85f-d64c-d4f3-4d87-f5aab03ea7fa
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Nitro (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.273
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/e1ea2547-4354-e8cc-dca8-159924a8b26a
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Slate (Well-Worn)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 2.919
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/e1718175-6cbe-c3b2-d19b-8d551a378b75
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: MAC-10 | Carnivore (Field-Tested)
+🎯 Float: 0.34409967064857483
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.147
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/80c23f6a-dbb9-7a11-8d2d-91b14713217e
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Desert Eagle | Corinthian (Field-Tested)
+🎯 Float: 0.18417870998382568
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.1995
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/9a60bed1-56b2-bae7-8ba0-1a5de8cd7803
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ AWP | Mortis (Field-Tested)
+🎯 Float: 0.1736379712820053
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 5.586
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/b2b830e6-4a0b-44f0-62ae-a167681e7d4d
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Glock-18 | Catacombs (Factory New)
+🎯 Float: 0.06674933433532715
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.63
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/c95d1c58-d7c0-a9c2-e55d-e2788547d6d3
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Control Panel (Battle-Scarred)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 4.2525
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/73fec37f-7274-ec03-598b-342c6c409117
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Calligraffiti (Field-Tested)
+🎯 Float: 0.31098657846450806
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.4305
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/05b4b1ad-3789-37a4-fad0-78d688fa97a3
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Desert Eagle | Trigger Discipline (Well-Worn)
+🎯 Float: 0.3991101384162903
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.336
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/f9d62a99-0761-7b37-c176-e3a0850243dd
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Galil AR | Signal (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.5355
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/919bf683-e246-1748-ba3a-28b1bda03c50
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Point Disarray (Field-Tested)
+🎯 Float: 0.301302433013916
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 11.718
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/b1e85e12-3034-1d98-f295-01681c69b26c
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Sticker | Grayhound Gaming (Gold) | Paris 2023
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.4515
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/32b65701-043b-2d9c-d72f-d3cf429a3fe2
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: ★ Butterfly Knife | Marble Fade (Factory New)
+🎯 Float: 0.00341629143804312
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 2925.6045
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/a3005afe-3024-2845-2d24-85cf671caace
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Night Terror (Minimal Wear)
+🎯 Float: 0.0806533619761467
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.63
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/ee33dcb7-e01c-8d5a-1c44-7e5ce5b30c78
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AWP | Acheron (Well-Worn)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.7245
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/6b7b7b75-681e-5f05-10cc-4cadad9fea14
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: USP-S | Printstream (Battle-Scarred)
+🎯 Float: 0.7896867990493774
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 28.266
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/79ec737a-3b25-5ead-4d25-6e64bd095dd6
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ SSG 08 | Fever Dream (Minimal Wear)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 3.9585
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/731b25f7-9316-34bc-173b-550719031971
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Conspiracy (Minimal Wear)
+🎯 Float: 0.12306835502386093
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 20.6325
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/34b01d50-f99d-2b31-8afb-24ca9a26a3a0
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AWP | Duality (Battle-Scarred)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.6065
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/85dee470-7fc6-cb19-0832-d10fb0e68e08
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Uncharted (Factory New)
+🎯 Float: 0.06252949684858322
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.0605
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/f5108d63-b8b7-b76d-b041-a1cf4144e355
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: ★ Kukri Knife | Blue Steel (Minimal Wear)
+🎯 Float: 0.13793137669563293
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 226.044
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/a999f67d-8ada-2674-3435-75196fe4b684
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ MP9 | Bioleak (Factory New)
+🎯 Float: 0.04309852421283722
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.386
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/809f23ce-4b2c-6ac8-1154-f1ac2c0bac1f
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ P90 | Grim (Field-Tested)
+🎯 Float: 0.20927388966083527
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.189
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/c9a5ff72-7d0a-9d13-8216-c74a5b8e3083
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ SCAR-20 | Enforcer (Battle-Scarred)
+🎯 Float: 0.5355989933013916
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.6615
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/f3d8f357-b912-ca6b-cf54-764a0425d33d
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Asiimov (Battle-Scarred)
+🎯 Float: 0.5570438504219055
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 30.576
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/9e726aaa-0640-67a4-2383-e1880fc2df57
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Elite Build (Well-Worn)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.008
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/047b0b5d-bfee-3ccd-df7e-f8b0f5cea757
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: G3SG1 | Dream Glade (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.2205
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/11db8696-d313-761d-49da-4271e46e7d0d
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ P250 | Valence (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.3045
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/13dc626a-258e-c3a6-5243-e1bddc824a8b
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Blue Ply (Well-Worn)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.63
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/14e5d3e4-1391-339b-f9d2-a4e9ce52c6fc
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Crossfade (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.2915
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/1a4dbbbd-5678-0e42-1789-80b415212b58
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: Desert Eagle | Conspiracy (Minimal Wear)
+🎯 Float: 0.1296309381723404
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 7.2765
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/301b9b8b-1f14-41fa-8d71-ddf1d7484774
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ P90 | Traction (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.4095
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/3965268d-e84a-f1a1-15c3-7d8af4a2d92b
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: The Elite Mr. Muhlik | Elite Crew
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 8.148
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/44056600-3451-3f1f-3b34-db0ba098e00a
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Emphorosaur-S (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.3255
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/46e60690-6c03-ad2d-db2e-ddaad2a92bc0
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ M4A4 | Magnesium (Well-Worn)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.5145
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/471804e2-6494-14dd-34d5-0a71cdb39ca2
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Ice Coaled (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 3.99
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/57865394-6b20-b0df-da9b-33aed09a557a
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: MAG-7 | Monster Call (Well-Worn)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.273
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/6d20c2b8-824d-05cb-c19d-47fb56a8be3b
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: MAC-10 | Disco Tech (Battle-Scarred)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.827
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/750c1369-d63c-0c42-698a-603515f5b1d9
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: MAC-10 | Disco Tech (Battle-Scarred)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.827
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/76ede9c7-06ca-e3c3-ec0b-3de209fbfe4c
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Redline (Battle-Scarred)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 27.825
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/78d01040-4ab3-0969-12a4-213c22f261da
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Emphorosaur-S (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.3255
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/80213477-2a5e-b18c-3ea4-fa54c1063bdc
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AWP | Pit Viper (Minimal Wear)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.672
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/95d466d1-db9f-b26b-3aab-935929499ce7
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: AWP | Acheron (Factory New)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.6275
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/aa2e6553-a6bb-1c54-1a37-0b05281516cf
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: FAMAS | ZX Spectron (Battle-Scarred)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.2285
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/bfc4692b-a446-91cf-990d-3d555cabd80b
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: USP-S | Ticket to Hell (Factory New)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 1.386
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/cf1d63bd-8719-fcad-a81b-12e2a6eb597c
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Emphorosaur-S (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.3255
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/da88644f-22f8-57ba-058e-0a643129b1cd
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Emphorosaur-S (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.3255
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/e240bf3b-48b4-3046-d8f1-4139abdd587d
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Nitro (Field-Tested)
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 💸 Цена: 0.273
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/e9eabec6-d555-ddc2-15c0-d74edaea4a20
+2025-06-12 23:19:13 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:15 UTC [INFO] items.json обновлён и перечитан в память!
 Некст обновление через 3 часа.
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] [a979209633208c32:RNW78Fm5@res.proxy-seller.io:10006] Получен ответ: 200, длина: 399892
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Emphorosaur-S (Minimal Wear)
-🎯 Float: 0.1228468939661979
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.9345
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/c686fba2-4b03-a3c6-8cd6-90cb5b4e7259
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Glock-18 | Weasel (Battle-Scarred)
-🎯 Float: 0.6316947340965271
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.3465
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/0d926490-d4e6-c381-2b9c-31d15f27a4c9
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: P250 | Asiimov (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 3.381
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/fdf09570-c727-6802-300b-c1d7e8b1466a
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Galil AR | Signal (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.5355
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/5de84644-ff50-dca2-abb4-d5ec99e776df
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Glock-18 | Weasel (Field-Tested)
-🎯 Float: 0.2932964861392975
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.134
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/292af62b-ebc7-1b85-e91e-312b2c6237ed
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Flashback (Well-Worn)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.399
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/b683b9cd-5ae4-59d1-4205-2878b369486d
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Desert Eagle | Heat Treated (Well-Worn)
-🎯 Float: 0.39209309220314026
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.798
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/7a03b6dd-7bc2-01fc-19c9-a9665570cae8
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: MP7 | Bloodsport (Field-Tested)
-🎯 Float: 0.17991119623184204
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.3965
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/3dda3994-cb5a-4a86-3ff7-786ee20e3d4d
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Ice Coaled (Battle-Scarred)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 3.318
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/7cdde9f5-67fd-05ec-ffaa-ff91813b263e
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Glock-18 | Ironwork (Well-Worn)
-🎯 Float: 0.3974432647228241
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.1365
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/794b5f8e-6a3e-1580-2c3f-3764b3e89e0e
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Boreal Forest (Well-Worn)
-🎯 Float: 0.38712939620018005
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.1155
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/1f75fd68-33d9-320c-467a-f7f6a0f817da
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Blue Ply (Well-Worn)
-🎯 Float: 0.4047948122024536
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.609
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/267bfe14-e6b9-acf8-2906-970b7e5da22f
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Sticker | Lit (Holo)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.2835
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/6c8d5bbb-631a-fcd6-7477-c798f6a95c86
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Blue Ply (Well-Worn)
-🎯 Float: 0.4328194260597229
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.609
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/4113b55b-3e3a-1ce5-8057-7354ab002c52
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: AWP | Chrome Cannon (Well-Worn)
-🎯 Float: 0.3911268413066864
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 19.9815
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/ca1bece6-463e-a1a2-476e-9a0c316fd2e8
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Blue Ply (Well-Worn)
-🎯 Float: 0.4368895888328552
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.609
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/5fa420c1-b1ce-c137-ca37-a46e466baac4
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Desert Eagle | Blue Ply (Well-Worn)
-🎯 Float: 0.44428977370262146
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.609
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/3214810d-ea3d-0d3e-0322-3632ca2c7abd
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: USP-S | Cortex (Minimal Wear)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 4.62
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/bc4cebba-18bc-6d3c-a56a-e75264a40a5b
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Glock-18 | Wasteland Rebel (Minimal Wear)
-🎯 Float: 0.14552834630012512
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 4.788
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/584a1f09-e712-d9f0-3470-b599695bc817
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Sticker | Cedar Creek (Holo)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.008
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/f0c928a6-49ad-1f6a-5188-c50ea9167f93
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Sticker | Cedar Creek (Holo)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.9975
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/0ad3df38-98f9-1b71-8646-43edca172371
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Sticker | Cedar Creek (Holo)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.008
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/b4ac82ee-ac62-9185-98b9-a17e097d778f
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Point Disarray (Minimal Wear)
-🎯 Float: 0.1418430209159851
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 19.866
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/8987d696-fde3-cbbf-080e-f664d0d632f7
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Fever Case
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.7035
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/ed9382a3-16bd-ea4c-8cb2-94b699d5f98d
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ Tec-9 | Fubar (Well-Worn)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.1155
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/1392a089-1b2a-b7e9-e0cb-b15ec6da73f7
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: R8 Revolver | Amber Fade (Field-Tested)
-🎯 Float: 0.15840792655944824
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.5775
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/49baf1f7-1db8-f8f3-acbc-e09c2ab30dbd
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ MP9 | Goo (Battle-Scarred)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.155
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/d036da32-68c4-4f8d-04b6-627c9ca3a01b
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ PP-Bizon | Night Riot (Well-Worn)
-🎯 Float: 0.38220304250717163
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.168
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/f08b475d-f281-1dcf-e979-f80dbe0da2ea
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Fever Case
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.7035
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/8a853043-a8b4-0899-e22e-35a4bca551a2
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: AWP | Acheron (Battle-Scarred)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.3045
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/109cc11b-43f0-ea5c-daa3-c097dac8ff9b
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Sticker | Kimberly
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.7325
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/ea0ef62b-959a-2e68-8b76-82aae8ffd1ac
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Fever Case
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.7035
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/0848cfce-b305-cf42-70a1-151f0e8e218b
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: D Squadron Officer | NZSAS
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 103.887
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/018301c2-171f-8bac-5290-031b20788f49
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Desert Eagle | Mecha Industries (Battle-Scarred)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 4.3575
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/0ba10729-2b8b-3a78-b3d6-3a9667e36db6
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ SG 553 | Dragon Tech (Minimal Wear)
-🎯 Float: 0.12592042982578278
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.701
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/0fbe04c7-6fbe-4cb3-f858-6226d46d1a73
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Uncharted (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.273
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/102e28c2-d55a-3150-9b54-f07759d992bf
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Crossfade (Minimal Wear)
-🎯 Float: 0.11349860578775406
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 1.8375
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/1d6f5b70-9dd0-7612-af11-d47ee0028d6a
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: USP-S | Ticket to Hell (Well-Worn)
-🎯 Float: 0.44077253341674805
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.4305
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/2128bebe-7789-b3cf-efa2-5eae4c48019c
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: StatTrak™ M4A4 | Neo-Noir (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 20.4225
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/244785ae-5876-8f16-4a04-3e6ca13ab585
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: M4A1-S | Nightmare (Field-Tested)
-🎯 Float: 0.2629886269569397
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 10.3005
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/2a479ce5-11d8-56e8-141c-f5bc1f4283f1
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Five-SeveN | Monkey Business (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 3.2025
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/2faabf52-0f28-9eee-7241-0e9c597a4f53
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: MAG-7 | SWAG-7 (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.357
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/339e3540-f4da-4fd8-d612-1626f14ab6dc
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: R8 Revolver | Fade (Field-Tested)
-🎯 Float: 0.1687026023864746
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 9.7335
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/432734f1-fe5f-6722-b4c7-8cdaa8cd3eec
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Prof. Shahmat | Elite Crew
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 5.4915
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/4a77061a-0026-9e33-40da-5651f6442c0b
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: R8 Revolver | Amber Fade (Field-Tested)
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.567
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/6dee6f80-8c35-9be4-b4a4-1854790cbfab
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Rezan the Redshirt | Sabre
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 7.3815
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/6e38ae0c-2112-ace0-24fa-c0eaac8ab544
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: PP-Bizon | Space Cat (Field-Tested)
-🎯 Float: 0.2147086262702942
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.2205
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/da9a214e-7b37-86ff-1bea-64169dbd1e28
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Fever Case
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.7035
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/1a65ced8-288f-2b02-a809-ab34a0a8209b
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Fever Case
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.7035
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/37a51ec9-ad6b-fe8d-0c7b-5baf9e2e9667
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🆕 Новый скин: Fever Case
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 💸 Цена: 0.7035
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/230fbb0b-110b-4aa5-a41a-fc50df7e77b0
-2025-06-12 17:16:21 UTC [INFO] [Worker 1] ------------------------------
+2025-06-12 23:19:18 UTC [INFO] [Worker 1] [8PGDYX:HW28zA@45.94.231.129:8000] Получен ответ: 200, длина: 412103
+2025-06-12 23:19:24 UTC [INFO] [Worker 1] [8PGDYX:HW28zA@45.94.231.129:8000] Получен ответ: 200, длина: 412103
+2025-06-12 23:19:29 UTC [INFO] [Worker 1] [8PGDYX:HW28zA@45.94.231.129:8000] Получен ответ: 200, длина: 412103
+2025-06-12 23:19:34 UTC [INFO] [Worker 1] [8PGDYX:HW28zA@45.94.231.129:8000] Получен ответ: 200, длина: 410941
+2025-06-12 23:19:34 UTC [INFO] [Worker 1] 🆕 Новый скин: AK-47 | Neon Rider (Field-Tested)
+2025-06-12 23:19:34 UTC [INFO] [Worker 1] 💸 Цена: 45.2865
+2025-06-12 23:19:34 UTC [INFO] [Worker 1] 🔗 Ссылка: https://aim.market/item/0fcb2775-d9f6-0d5d-0402-477db2c2ea91
+2025-06-12 23:19:34 UTC [INFO] [Worker 1] ------------------------------

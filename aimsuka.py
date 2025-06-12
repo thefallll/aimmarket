@@ -26,7 +26,7 @@ TG_CHAT_ID = os.getenv("TG_CHAT_ID")
 bot = Bot(token=TG_TOKEN, default=DefaultBotProperties(parse_mode="Markdown"))
 dp = Dispatcher()
 
-PROXY_FILE = 'list_resident_proxyseller (4).txt'
+PROXY_FILE = 'proxy-list.txt'
 LOG_FILE = "aimmarket.log"
 
 logging.Formatter.converter = time.gmtime
