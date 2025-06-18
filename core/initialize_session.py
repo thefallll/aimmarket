@@ -2,9 +2,10 @@ import asyncio
 import logging
 from async_tls_client import AsyncSession
 
-URL = "https://aim.market/en/buy?auto_update=true&order_column=createdAt"
 
 class InitializeSession:
+    def __init__(self, URL):
+        self.url = URL
 
     def get_proxy_list(self, proxy_file=None):
         with open(proxy_file, 'r') as f:
@@ -22,7 +23,7 @@ class InitializeSession:
                     client_identifier='chrome_133',
                     random_tls_extension_order=True
                 )
-                resp = await session.get(URL, proxy=f"http://{candidate}")
+                resp = await session.get(self.url, proxy=f"http://{candidate}")
                 if resp.status_code == 200:
                     used_proxies.add(candidate)
                     print(f"[Worker {worker_id}] Новый прокси готов: {candidate}")
@@ -33,6 +34,7 @@ class InitializeSession:
                 logging.error(f"[Worker {worker_id}] [{candidate}] Ошибка при проверке: {e}")
                 failed_proxies.add(candidate)
         return None
+    
     async def test_worker(self, worker_id, delay, proxy_list, ready_event, ready_counter, total_workers, failed_proxies, used_proxies):
         """Инициализирует сессию для воркера и возвращает рабочий прокси"""
         await asyncio.sleep(delay)
@@ -50,7 +52,7 @@ class InitializeSession:
             if candidate in failed_proxies or candidate in used_proxies:
                 continue
             try:
-                resp = await session.get(URL, proxy=f"http://{candidate}")
+                resp = await session.get(self.url, proxy=f"http://{candidate}")
                 if resp.status_code == 200:
                     async with ready_counter['lock']:
                         if candidate not in used_proxies:
@@ -80,7 +82,7 @@ class InitializeSession:
         return None
 
     async def initialize_workers(self, num_workers, proxy_file=None):
-        """Инициализирует все воркеры и возвращает словарь рабочих прокси"""
+        """Инициализирует всеx  воркеров и возвращает словарь рабочих прокси"""
         proxy_list = self.get_proxy_list(proxy_file)
         ready_event = asyncio.Event()
         ready_counter = {'count': 0, 'lock': asyncio.Lock()}
