@@ -63,9 +63,9 @@ class MarketLinksMixin:
                     return weapon_type, weapon
         return None, None
 
-    def make_aimmarket_link(self, hash_name: str, item_id: str = None) -> str:
+    def make_aimmarket_link(self, hash_name: str) -> str:
         encoded_name = quote(hash_name)
-        return f"https://aim.market/en/buy/csgo/{encoded_name}?id={item_id}" if item_id else f"https://aim.market/en/buy/csgo/{encoded_name}"
+        return f"https://aim.market/en/buy/csgo/{encoded_name}"
 
     def make_csmarket_link(self, hash_name):
             is_souvenir = hash_name.startswith("Souvenir ")

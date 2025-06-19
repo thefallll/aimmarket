@@ -52,7 +52,7 @@ class Aimmarket:
         return " ".join(filter(None, [star, stattrak, name_without_star, condition])).strip()
 
     async def parse_worker(self, worker_id, proxy, seen_ids, seen_lock, item_filter):
-        url = 'https://aim.market/ru/buy?filter=%257B%2522tradableAfter%2522%253A%257B%2522_in%2522%253A%255Bnull%255D%257D%257D&order_column=createdAt'
+        url = 'https://aim.market/en/buy?auto_update=true&order_column=createdAt'
         session = AsyncSession(client_identifier='chrome_133', random_tls_extension_order=True)
         
         while True:
@@ -136,7 +136,7 @@ class Aimmarket:
                             
                             msg = self.bot_utils.format_tg_message(item_obj, href, self.items_manager.items)
 
-                            aimmarket_link = self.make_aimmarket_link(item_obj.hash_name, item_obj.item_id)
+                            aimmarket_link = self.make_aimmarket_link(item_obj.hash_name)
                             csmarket_link = self.make_csmarket_link(item_obj.hash_name)
                             buff_link = self.make_buff_link(item_obj.hash_name)
 
@@ -229,7 +229,7 @@ class Aimmarket:
 
 if __name__ == "__main__":
     aimmarket_app = Aimmarket(
-        url="https://aim.market/ru/buy?filter=%257B%2522tradableAfter%2522%253A%257B%2522_in%2522%253A%255Bnull%255D%257D%257D&order_column=createdAt", 
+        url="https://aim.market/en/buy?auto_update=true&order_column=createdAt", 
         market="AIMMARKET", 
         log_file="aimmarket.log")
     
