@@ -44,7 +44,7 @@ WEAPON_TYPE_MAP = {
     "Souvenir Package": "Package", "Capsule": "Capsule", "Pin": "Pin", "Collectible": "Collectible"
 }
 
-class MarketLinksMixin:
+class Links:
     def __init__(self, items_manager: ItemsManager):
         self.items_manager = items_manager
 
@@ -63,9 +63,12 @@ class MarketLinksMixin:
                     return weapon_type, weapon
         return None, None
 
-    def make_aimmarket_link(self, hash_name: str) -> str:
+    def make_aimmarket_link(self, hash_name: str, item_id: str = None) -> str:
         encoded_name = quote(hash_name)
-        return f"https://aim.market/en/buy/csgo/{encoded_name}"
+        if item_id:
+            return f"https://aim.market/en/buy/csgo/{encoded_name}?id={item_id}"
+        else:
+            return f"https://aim.market/en/buy/csgo/{encoded_name}"
 
     def make_csmarket_link(self, hash_name):
             is_souvenir = hash_name.startswith("Souvenir ")

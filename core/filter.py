@@ -187,3 +187,4 @@ class ItemFilterEXP:
             market_sold_condition.procent > 21 and market_sell_condition.procent > 21
         ]):
             item.notify = True
+
