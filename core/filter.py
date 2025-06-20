@@ -77,23 +77,24 @@ class ItemFilterEXP:
     def filter_item(self, item: Item, notify_sell_procent: int = 0) -> None:
 
         self.logger.info(f"Фильтрую Айтем: {item.hash_name}, Price: {item.price}")
-        print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
+        # print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
 
         if item.price < 10:
             self.logger.info(f"{item.hash_name} цена меньше 10, пропускаем.")
-            print(f"{item.hash_name} цена меньше 10, пропускаем.")
+            # print(f"{item.hash_name} цена меньше 10, пропускаем.")
             return
 
         data = self._db.get(item.hash_name)
         if not data:
             self.logger.info(f"Нет данных для {item.hash_name}, пропускаем.")
-            print(f"Нет данных для {item.hash_name}, пропускаем.")
+            # print(f"Нет данных для {item.hash_name}, пропускаем.")
             return
 
         self.logger.info(f"data: {data}")
 
-        print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
-        print("data:", data)
+        # print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
+        # print("data:", data)
+
         price = item.price
 
         buff = data['buff']

@@ -68,3 +68,22 @@ class ItemsManager:
 
     def get_item(self, hash_name: str) -> Optional[dict]:
         return self.items.get(hash_name)
+    
+    def get_item_image(self, hash_name: str, size: int = 512) -> str:
+        """Возвращает URL изображения предмета."""
+        item_data = self.items.get(hash_name)
+        if item_data and item_data.get('asset') and item_data['asset'].get('image_url'):
+            image_path = item_data['asset']['image_url']
+            return f"https://community.fastly.steamstatic.com/economy/image/{image_path}/{size}fx{size}f"
+        # Запасное изображение, если ничего не найдено
+        return "https://orthomoda.ru/bitrix/templates/.default/img/no-photo.jpg"
+
+    def get_tier(self, hash_name: str) -> int:
+        """Возвращает тир (редкость) предмета."""
+        data = self.items.get(hash_name)
+        if not data:
+            return -1
+        tier = data.get('asset', {}).get('tier')
+        if tier is None:
+            return -1
+        return tier

@@ -9,9 +9,13 @@ import os
 load_dotenv()
 
 class TelegramBot:
-    def __init__(self):
-        self._tg_token = os.getenv("TG_TOKEN")
-        self._tg_chat_id = os.getenv("TG_CHAT_ID")
+    def __init__(self, token_env_var: str, chat_id_env_var: str):
+        self._tg_token = os.getenv(token_env_var)
+        self._tg_chat_id = os.getenv(chat_id_env_var)
+
+        if not self._tg_token or not self._tg_chat_id:
+            raise ValueError(f"Переменные {token_env_var} и {chat_id_env_var} должны быть установлены в .env")
+
         self._bot = Bot(token=self._tg_token, default=DefaultBotProperties(parse_mode="Markdown"))
         self._dp = Dispatcher()
 

@@ -8,7 +8,7 @@ from core.items_manager import ItemsManager
 from core.links import Links
 
 class BaseParser:
-    def __init__(self, url, market, proxy_file="proxy-list.txt", log_file="parser.log", items_manager=None):
+    def __init__(self, url, market, token_env_var: str, chat_id_env_var: str, proxy_file="proxy-list.txt", log_file="parser.log", items_manager=None):
         self.url = url
         self.market = market
         self.proxy_file = proxy_file
@@ -17,7 +17,7 @@ class BaseParser:
         self.logger = Logger.setup_logger(log_file=self.log_file)
         self.items_manager = items_manager or ItemsManager(logger=self.logger)
 
-        self.tg_bot = TelegramBot()
+        self.tg_bot = TelegramBot(token_env_var=token_env_var, chat_id_env_var=chat_id_env_var)
         self.bot = self.tg_bot.get_bot()
         self.dp = self.tg_bot.get_dispatcher()
         self.tg_chat_id = self.tg_bot.get_chat_id()

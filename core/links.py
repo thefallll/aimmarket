@@ -70,6 +70,17 @@ class Links:
         else:
             return f"https://aim.market/en/buy/csgo/{encoded_name}"
 
+    def make_lisskins_link(self, hash_name: str) -> str:
+        link_part = hash_name.lower().replace('™', '')
+        link_part = link_part.replace(' | ', '-')
+        link_part = link_part.replace(' (', '-')
+        link_part = link_part.replace(')', '')
+        link_part = link_part.replace(' ', '-')
+
+        encoded_part = quote(link_part)
+        
+        return f"https://lis-skins.com/ru/market/csgo/{encoded_part}/"
+
     def make_csmarket_link(self, hash_name):
             is_souvenir = hash_name.startswith("Souvenir ")
             weapon_type, weapon_name = self.extract_weapon_and_type(hash_name)
