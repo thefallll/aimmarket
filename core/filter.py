@@ -75,11 +75,12 @@ class ItemFilterEXP:
         self.logger = logger or logging.getLogger(__name__)
     
     def filter_item(self, item: Item, notify_sell_procent: int = 0) -> None:
-        self.logger.debug("Фильтрую Айтем:", item.hash_name, item.price)
+        
+        self.logger.info("Фильтрую Айтем:", item.hash_name, item.price)
         print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
 
         if item.price < 10:
-            self.logger.debug(f"{item.hash_name} цена меньше 10, пропускаем.")
+            self.logger.info(f"{item.hash_name} цена меньше 10, пропускаем.")
             print(f"{item.hash_name} цена меньше 10, пропускаем.")
             return
 
@@ -89,8 +90,7 @@ class ItemFilterEXP:
             print(f"Нет данных для {item.hash_name}, пропускаем.")
             return
 
-        self.logger.debug(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
-        self.logger.debug("data:", data)
+        self.logger.info("data:", data)
 
         print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
         print("data:", data)
