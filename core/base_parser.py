@@ -8,13 +8,15 @@ from core.items_manager import ItemsManager
 from core.links import Links
 
 class BaseParser:
-    def __init__(self, url, market, proxy_file="proxy-list.txt", log_file="parser.log"):
+    def __init__(self, url, market, proxy_file="proxy-list.txt", log_file="parser.log", items_manager=None):
         self.url = url
         self.market = market
         self.proxy_file = proxy_file
         self.log_file = log_file
 
         self.logger = Logger.setup_logger(log_file=self.log_file)
+        self.items_manager = items_manager or ItemsManager(logger=self.logger)
+
         self.tg_bot = TelegramBot()
         self.bot = self.tg_bot.get_bot()
         self.dp = self.tg_bot.get_dispatcher()
@@ -22,22 +24,12 @@ class BaseParser:
         self.bot_utils = TelegramBotUtils()
         self.used_proxies = set()
         self.failed_proxies = set()
-        self.items_manager = ItemsManager(self.logger)
         self.links = Links(self.items_manager)
         self.session_initializer = InitializeSession(URL=self.url)
 
     async def parse_worker(self, worker_id, proxy, seen_ids, seen_lock, item_filter):
-        raise NotImplementedError("Реализуй этот метод в дочернем классе!")
-    
-    async def auto_refresh_items(self, interval=3*60*60):
-        while True:
-            try:
-                await self.items_manager.refresh()
-                self.logger.info(f"items.json автообновлена!")
-            except Exception as e:
-                self.logger.error(f"Ошибка автообновления items.json: {e}")
-            await asyncio.sleep(interval)
-            
+        raise NotImplementedError("Реализуй этот метод в дочернем классе!")      
+      
     async def run_workers(self, item_filter_instance, num_workers=1, max_attempts=3):
         for attempt in range(max_attempts):
             try:
@@ -70,6 +62,5 @@ class BaseParser:
 
     async def main(self):
         items_db_instance = ItemsDatabase(self.items_manager.items)
-        item_filter_instance = ItemFilterEXP(items_db_instance)
-        await self.items_manager.refresh()
+        item_filter_instance = ItemFilterEXP(items_db_instance, logger=self.logger)
         await self.run_workers(item_filter_instance)

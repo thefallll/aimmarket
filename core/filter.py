@@ -1,5 +1,5 @@
 from copy import deepcopy
-
+import logging
 
 class PriceCondition:
     def __init__(self, name: str, procent: float, price: float):
@@ -70,18 +70,30 @@ def calculate_procent(first: float, second: float) -> float: # second - за с�
 
 
 class ItemFilterEXP:
-    def __init__(self, db: ItemsDatabase):
+    def __init__(self, db: ItemsDatabase, logger = None):
         self._db = db
-
+        self.logger = logger or logging.getLogger(__name__)
     
     def filter_item(self, item: Item, notify_sell_procent: int = 0) -> None:
+        self.logger.debug("Фильтрую Айтем:", item.hash_name, item.price)
+        print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
+
         if item.price < 10:
+            self.logger.debug(f"{item.hash_name} цена меньше 10, пропускаем.")
+            print(f"{item.hash_name} цена меньше 10, пропускаем.")
             return
 
         data = self._db.get(item.hash_name)
         if not data:
+            self.logger.info(f"Нет данных для {item.hash_name}, пропускаем.")
+            print(f"Нет данных для {item.hash_name}, пропускаем.")
             return
 
+        self.logger.debug(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
+        self.logger.debug("data:", data)
+
+        print(f"Фильтрую Айтем: {item.hash_name} ({item.id})")
+        print("data:", data)
         price = item.price
 
         buff = data['buff']
