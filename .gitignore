@@ -1,3 +1,4 @@
 .env
+*.log
 items.json
 aimmarket.log
